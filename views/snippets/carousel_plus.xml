@@ -1,0 +1,67 @@
+<?xml version='1.0' encoding='utf-8'?>
+<odoo>
+    <template id="lv.carousel_plus" name="Carousel Plus">
+        <section>
+            <div class="container text-center">
+                <div class="row align-items-center">
+                    <div class="col">
+                        <div class="border border-lvv space-lvv rounded" style="height">
+                            <img src="lv/static/img/milk.png" class="image" style="width:15%"/>
+
+                            <div>Sản phẩm ĐA DẠNG</div>
+                            <div>Thích hợp cho: người già, trẻ em, người gầy, người bị tiểu đường,...</div>
+                        </div>
+                        <div class="border border-lvv rounded">
+                            <img src="lv/static/img/start.png" class="image" style="width:15%"/>
+
+                            <div>Công thức ƯU VIỆT</div>
+                            <div>Phù hợp với thể trạng, sức khỏe và nhu cầu dinh dưỡng của người Việt Nam.</div>
+                        </div>
+                    </div>
+                    <div class="col hide-on-small">
+                        <div id="carouselExampleplus" class="carousel slide">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="lv/static/img/4.jpg" class="d-block w-100"/>
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="lv/static/img/4.jpg" class="d-block w-100"/>
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="lv/static/img/4.jpg" class="d-block w-100"/>
+                                </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleplus" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleplus" data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="border border-lvv space-lvv rounded">
+                            <img src="lv/static/img/word.png" class="image" style="width:15%"/>
+
+                            <div>Quy chuẩn QUỐC TẾ</div>
+                            <div>Chứng nhận bởi Bộ Y Tế và tuân thủ các quy chuẩn dinh dưỡng Quốc tế.</div>
+                        </div>
+                        <div class="border border-lvv rounded">
+                            <img src="lv/static/img/tag.png" class="image" style="width:15%"/>
+
+                            <div>Chính sách ƯU ĐÃI</div>
+                            <div>Chăm sóc khách hàng tận tâm và hàng ngàn ưu đãi từ Liên Việt Pharma.</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </template>
+    <record id="lv.carousel_three_row" model="ir.asset">
+        <field name="name">Badgeeee 000 SCSS</field>
+        <field name="bundle">web.assets_frontend</field>
+        <field name="path">lv/static/src/style/hide_carousel.css</field>
+    </record>
+</odoo>

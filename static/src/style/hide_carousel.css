@@ -1,0 +1,23 @@
+@media (max-width: 768px) {
+    .hide-on-small {
+        display: none;
+        /* Ẩn cột khi màn hình nhỏ hơn 768px */
+    }
+    .image{
+        width: 25% !important;
+    }
+    .imagee{
+        max-width: 65% !important;
+    }
+    /* .border-lvv {
+        height: 220px !important;
+        padding-top: 10px !important;
+    } */
+}
+.border-lvv{
+    height: 200px !important;
+    padding-top: 20px !important;
+}
+.space-lvv{
+    margin-bottom: 20px !important;
+}
