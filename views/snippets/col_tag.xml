@@ -3,19 +3,27 @@
     <template id="lv.col_tag" name="Tag LV">
         <section>
         <t t-call-assets="lv.bootstrap"/>
-            <div class="container text-center">
-                <div class="row align-items-center">
-                    <div class="col">
-                        <img src="lv/static/img/01.png" class="imagee" style="max-width: 50%; height: auto;" alt="Ảnh 1"/>
-                            <p>Một trong ba cột</p>
+           <div class="container text-center">
+                <div class="row align-items-start">
+                    <div class="col-4">
+                        <img class="imagee" src="lv/static/img/01.png"/>
                         </div>
-                        <div class="col">
-                            <img src="lv/static/img/01.png" class="imagee" style="max-width: 50%; height: auto;" alt="Ảnh 2"/>
-                                <p>Một trong ba cột</p>
-                            </div>
-                            <div class="col">
-                                <img src="lv/static/img/01.png" class="imagee" style="max-width: 50%; height: auto;" alt="Ảnh 3"/>
-                                    <p>Một trong ba cột</p>
+                        <div class="col-4">
+                            <img class="imagee" src="lv/static/img/02.png"/></div>
+                            <div class="col-4">
+                                <img class="imagee" src="lv/static/img/03.png"/>
+                                </div>
+
+                                <div class="col-4 chu">
+                                    <div>Đạt tiêu chuẩn quản lý chất lượng</div>
+                                    <div>ISO 22000:2018</div>
+                                </div>
+                                <div class="col-4 chu">
+                                    <div>Nhà máy sản xuất đạt tiêu chuẩn TCVN</div>
+                                    <div>5603:2008/HACCP</div>
+                                </div>
+                                <div class="col-4 chu">
+                                    <div>Hệ thống quản lý an toàn thực phẩm - GMP</div>
                                 </div>
                             </div>
                         </div>

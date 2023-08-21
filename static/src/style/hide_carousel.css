@@ -7,12 +7,18 @@
         width: 25% !important;
     }
     .imagee{
-        max-width: 65% !important;
+        max-width: 55% !important;
     }
     /* .border-lvv {
         height: 220px !important;
         padding-top: 10px !important;
     } */
+    .chu{
+        font-size: 10px;
+    }
+}
+.imagee{
+    max-width: 35%;
 }
 .border-lvv{
     height: 200px !important;
